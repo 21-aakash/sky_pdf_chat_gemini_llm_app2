@@ -100,7 +100,7 @@ def user_input(user_question):
 # Main function jo Streamlit app ko run karta hai
 def main():
     st.markdown("<h1 class='title'>👽SkyChat 3.0.0</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 class='header'>Chat with PDF - Gemini LLM App</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 class='header'>Chat with PDF - Gemini LLM App(with history)</h2>", unsafe_allow_html=True)
     
     # Initialize chat history in session state if not present
     if "chat_history" not in st.session_state:
